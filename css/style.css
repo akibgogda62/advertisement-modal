@@ -1,0 +1,58 @@
+.agc-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+    /* Set width and height */
+    width: 50%; /* Adjust width as needed */
+    max-width: 500px; /* Example maximum width */
+    height: 50%; /* Adjust height as needed */
+    max-height: 400px; /* Example maximum height */
+    overflow: auto; /* Enable scrolling if content exceeds dimensions */
+}
+
+
+
+.close-modal {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.agc-modal-top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.agc-modal-logo {
+    height:30px;
+}
+
+.agc-modal-title {
+    text-align: center;
+}
+
+.agc-modal-visitbtn
+{
+    
+    border-radius: 4px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.agc-modal-visitbtn-outer {
+    display: flex;
+    justify-content: center;
+}   
+
